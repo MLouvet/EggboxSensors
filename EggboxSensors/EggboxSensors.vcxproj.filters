@@ -21,27 +21,27 @@
     <ClInclude Include="__vm\.EggboxSensors.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GP2Y1010_sensor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DHT22_sensor.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Network.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MAC_Identification.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DHT22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GP2Y1010.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GP2Y1010_sensor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DHT22_sensor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHT22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GP2Y1010.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
